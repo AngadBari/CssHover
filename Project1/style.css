@@ -1,0 +1,148 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+.name{
+    font-size: 85px; 
+    color: #999;
+}
+
+.m1{
+    margin-left: 250px;
+
+}
+.m2
+{
+    margin-left: 1px;
+}
+.m4
+{
+    margin-left: 1px;
+}
+.elem {
+  position: relative;
+  width: fit-content;
+}
+
+.elem .hover-img {
+  position: absolute;
+  /* top: -200px;
+  left: -250px; */
+  width: 300px;
+  height: auto;
+  opacity: 0;
+  /* transition: opacity 0.3s ease; */
+  pointer-events: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.elem:hover .hover-img {
+  opacity: 1;
+  z-index: 2;
+  
+}
+
+h1:hover
+{
+  color: black;
+}
+
+.hover-img.k-right
+{
+  top: -60px;
+  left: 22px;
+  transition: opacity 0.3s ease;
+  height: 177px;
+  width: 215px;
+
+}
+.hover-img.k-mid
+{
+  top: -195px;
+  left: 360px;
+    transition: opacity 0.3s ease;
+      height: 200px;
+  width: 200px;
+    
+
+}
+.hover-img.k-left
+{
+  top: -60px;
+  left: 625px;
+    transition: opacity 0.3s ease;
+      height: 192px;
+  width: 200px;
+
+}
+
+
+
+.hover-img.h-right{
+top: -153px;
+  left: -10px;
+    transition: opacity 0.3s ease;
+     height: 165px;
+  width: 240px;
+}
+.hover-img.h-mid{
+top: -215px;
+  left: 345px;
+  transition: opacity 0.3s ease;
+   height: 210px;
+  width: 165px;
+}
+.hover-img.h-left{
+top: -150px;
+  left: 630px;
+  transition: opacity 0.3s ease;
+  height: 165px;
+  width: 200px;
+}
+
+
+
+
+.hover-img.g-right{
+top: -45px;
+  left: 40px;
+  transition: opacity 0.3s ease;
+   height: 207px;
+  width: 191px;
+}
+.hover-img.g-mid{
+top: 96px;
+  left: 415px;
+  transition: opacity 0.3s ease;
+ height: 214px;
+  width: 204px;
+}
+.hover-img.g-left{
+top: -45px;
+  left: 750px;
+  transition: opacity 0.3s ease;
+  height: 213px;
+  width: 183px;
+}
+
+
+
+.hover-img.r-mid{
+top: 100px;
+  left: 380px;
+  transition: opacity 0.3s ease;
+  height: 192px;
+  width: 183px;
+}
