@@ -20,7 +20,7 @@ This is a simple and beautiful CSS animation effect built using only HTML and CS
 
 1. Clone this repository:
    ```bash
-   git clone 
+   git clone https://github.com/AngadBari/CssHover.git
 
 
 
